@@ -8,7 +8,7 @@ from tensorflow.keras import layers, models
 x_train = x_train / 255.0
 x_test = x_test / 255.0
 
-# 3️⃣ Ajustar forma (CNN necesita canal)
+# 3️⃣ Ajustar forma 
 x_train = x_train.reshape(-1, 28, 28, 1)
 x_test = x_test.reshape(-1, 28, 28, 1)
 
@@ -42,7 +42,8 @@ model.fit(
     validation_split=0.1
 )
 
-# 7️⃣ Guardar modelo (formato moderno)
+# 7️⃣ Guardar modelo 
 model.save("models/mnist_cnn.keras")
 
 print("✅ Modelo CNN guardado correctamente")
+
