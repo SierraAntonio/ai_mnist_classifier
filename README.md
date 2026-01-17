@@ -46,7 +46,7 @@ bash
 
 1. Clone the repository:
 '''bash
-git clone https://github.com/your-username/ai-mnist-cnn-classifier.git
+git clone https://github.com/SierraAntonio/ai_mnist_classifier.git
 cd ai-mnist-cnn-classifier
 Create and activate a virtual environment:
 
