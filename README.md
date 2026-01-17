@@ -52,19 +52,24 @@ Create and activate a virtual environment:
 
 bash
 
-python -m venv .venv
+python -m venv .venv 
+
 source .venv/bin/activate   # Linux/Mac
+
 .venv\Scripts\activate      # Windows
+
 Install dependencies:
-bash
+
 pip install -r requirements.txt
 ▶️ Usage
 Train the model
-bash
+
 python train.py
+
 Evaluate the model
-bash
+
 python evaluate.py
+
 The trained model will be saved locally and reused for inference.
 
 🧪 Example Prediction
