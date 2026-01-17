@@ -60,8 +60,12 @@ source .venv/bin/activate   # Linux/Mac
 
 Install dependencies:
 
-pip install -r requirements.txt
+pip install -r 
+
+requirements.txt
+
 ▶️ Usage
+
 Train the model
 
 python train.py
